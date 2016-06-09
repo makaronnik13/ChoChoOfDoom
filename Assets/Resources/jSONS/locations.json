@@ -1,0 +1,19 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "text": "location1",
+	  "actions": [1]
+    },
+	{
+      "id": 1,
+      "text": "location2",
+	  "actions": [0,2]
+    },
+    {
+      "id": 2,
+      "text": "location3",
+	  "actions": [3,4]
+    }
+  ]
+}

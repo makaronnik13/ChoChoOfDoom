@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{BF780E7B-AF9A-BDBC-A107-10E99DC4FAA9}") = "ChoCho of Doom", "Assembly-CSharp-firstpass.csproj", "{4FF1DCEA-9ECC-F3B0-10A6-36DB9DC9DC25}"
+EndProject
+Project("{BF780E7B-AF9A-BDBC-A107-10E99DC4FAA9}") = "ChoCho of Doom", "Assembly-CSharp.csproj", "{A8763200-CBD5-F487-CB59-DE41F2B080F4}"
+EndProject
+Project("{BF780E7B-AF9A-BDBC-A107-10E99DC4FAA9}") = "ChoCho of Doom", "Assembly-CSharp-Editor.csproj", "{B874F239-0E27-AEEA-8959-F352C1D1EC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF1DCEA-9ECC-F3B0-10A6-36DB9DC9DC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF1DCEA-9ECC-F3B0-10A6-36DB9DC9DC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF1DCEA-9ECC-F3B0-10A6-36DB9DC9DC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF1DCEA-9ECC-F3B0-10A6-36DB9DC9DC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8763200-CBD5-F487-CB59-DE41F2B080F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8763200-CBD5-F487-CB59-DE41F2B080F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8763200-CBD5-F487-CB59-DE41F2B080F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8763200-CBD5-F487-CB59-DE41F2B080F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B874F239-0E27-AEEA-8959-F352C1D1EC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B874F239-0E27-AEEA-8959-F352C1D1EC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B874F239-0E27-AEEA-8959-F352C1D1EC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B874F239-0E27-AEEA-8959-F352C1D1EC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

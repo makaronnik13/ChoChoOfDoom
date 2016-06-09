@@ -1,0 +1,98 @@
+{
+  "actions": [
+    {
+      "id": 0,
+	  "text": "lol1",
+      "locationId": 0,
+      "type": true,
+      "needs": [],
+      "action": [
+        {
+          "item": 138,
+          "condition": "-",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+	  "text": "lol2",
+      "locationId": 1,
+      "type": false,
+      "needs": [
+        {
+          "item": 138,
+          "condition": ">",
+          "number": 2
+        }
+      ],
+      "action": [
+        {
+          "item": 138,
+          "condition": "-",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+	  "text": "lol3",
+      "locationId": 2,
+      "type": true,
+      "needs": [
+        {
+          "item": 138,
+          "condition": ">",
+          "number": 0
+        }
+      ],
+      "action": [
+        {
+          "item": 138,
+          "condition": "=",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+	  "text": "hideButton",
+      "locationId": 0,
+      "type": true,
+      "needs": [
+        {
+          "item": 138,
+          "condition": ">",
+          "number": 20
+        }
+      ],
+      "action": [
+        {
+          "item": 138,
+          "condition": "-",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+	  "text": "invisibleButton",
+      "locationId": 0,
+      "type": false,
+      "needs": [
+        {
+          "item": 138,
+          "condition": ">",
+          "number": 20
+        }
+      ],
+      "action": [
+        {
+          "item": 138,
+          "condition": "-",
+          "number": 1
+        }
+      ]
+    }
+  ]
+}
